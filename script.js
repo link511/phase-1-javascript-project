@@ -1,4 +1,18 @@
-
+fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
+  .then((response) => response.json())
+  .then((data) => {
+    const categories = document.querySelector("#categories");
+    data.categories.forEach((category) => {
+      const li = document.createElement("li");
+      const img = document.createElement("img");
+      img.src = category.strCategoryThumb;
+      const p = document.createElement("p");
+      p.innerHTML = category.strCategory;
+      li.appendChild(img);
+      li.appendChild(p);
+      categories.appendChild(li);
+    });
+  });
 
 function randomMeal() {
   fetch("https://www.themealdb.com/api/json/v1/1/random.php")
