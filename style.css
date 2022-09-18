@@ -4,9 +4,10 @@
 }
 
 body {
-  background-image:url(" /images/food1.jpg");
+  /*background-image:url(" /images/food1.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
+  background-color: gray;
   display: flex;
   flex-direction: column;
   align-items: center;
