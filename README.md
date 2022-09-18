@@ -5,7 +5,7 @@ In this project, I am building a page where users can click on 3 different butto
 
 ## Final webpage Link
 
-[What can I cook tonight?]{https://link511.github.io/phase-1-javascript-project/}
+[What can I cook tonight?](https://link511.github.io/phase-1-javascript-project/)
 
 
 ## Project requirements
