@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image:url("/images/food2.jpg");
+  background-image:url(/phase-1-javascript-project/images/food2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
