@@ -46,10 +46,13 @@ body button{
   top: 0;
   left: 0;
 }
+
 #categories {
-  display: block;
+  display:block;
   list-style: none;
 }
+
+
 #categories li {
   display: flex;
   flex-direction: row;
@@ -128,6 +131,7 @@ h3{
   padding: 5px;
 }
 
+/* ipad size */
 @media screen and (max-width: 820px) {
   .category-section {
     display: none;

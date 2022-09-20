@@ -1,5 +1,11 @@
 function toggleCategory() {
-  const categories = document.querySelector("#categories");
+ 
+ 
+//Make the category (the menu on the left) appear and disappear everytime the user click the menu button
+//If the display property of the div in CSS is "block", change it to "none" and vice versa
+const categories = document.querySelector("#categories");
+
+//using Style display Property to change the display property of the #category in CSS
   if (categories.style.display == "none") {
     categories.style.display = "block";
   } else {
@@ -8,6 +14,10 @@ function toggleCategory() {
 }
 
 
+// Testing
+console.log(categories);
+
+// fetching the categories data from API
 fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
   .then((response) => response.json())
   .then((data) => {
@@ -24,7 +34,7 @@ fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
     });
   });
 
-
+// fetching the random meal data from API
 function randomMeal() {
   fetch("https://www.themealdb.com/api/json/v1/1/random.php")
     .then((response) => response.json())

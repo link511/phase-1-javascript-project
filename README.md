@@ -7,13 +7,17 @@ In this project, I am building a page where users can click on 3 different butto
 
 [What can I cook tonight?](https://link511.github.io/phase-1-javascript-project/)
 
+## 5 mins Video about project
+
+https://www.loom.com/share/2c40dfa7c91c4d31a8489f44047299c5
+
 
 ## Project requirements
 
 - Researched and Explored APIs
 - Chosen the API to use
 - Created a project folder with individual folders for css/js/images
-- Responsive to at least 2 screen sizes?
+- Responsive to at least 2 screen sizes
 - Used fetch to get JSON data from the API
 - Displayed the JSON data in HTML using Javascript
 - Used at least 3 DIFFERENT event listeners to call 3 separate    functions to perform 3 interactions
@@ -41,6 +45,7 @@ Fetch data from the following  **php** files
 -   It required JavaScript to fetch the API data
 -   browser such as Chrome needed to test and run the web page
 -   GitHub to upload the project when commit and push
+-   2 screen size - pc & ipad
 
 ## What is the aim of this project?
 
